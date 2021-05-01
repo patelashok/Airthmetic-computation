@@ -17,3 +17,5 @@ compute[compute2]=$compute2
 compute[compute3]=$compute3
 compute[compute4]=$compute4
 echo ${compute[@]}
+array=($compute)
+echo ${compute[@]}
